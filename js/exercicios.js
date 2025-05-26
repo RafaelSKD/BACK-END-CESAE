@@ -215,4 +215,33 @@
 
 // console.log(product.price + " " + product.color[2]);
 
-//ex 12 p62
+// //ex 12 p86
+
+const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'},
+{first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'},
+{first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+
+// const firstNames = fullNames.map(fullNames => fullNames.first);
+
+
+// // const firstNames = fullNames.map(function(fullName) {
+// //     return fullName.first;
+// // });
+
+// firstNames.forEach(function(firstName) {
+//     console.log(`O nome da personagem é: ${firstName}`);
+// });
+
+// fullNames.forEach(function(fullName) {
+//     console.log(`O primeiro nome da personagem é: ${fullName.first} ${fullName.last}`);
+// });
+
+// fullNames.forEach(function(fullName) {
+//     console.log(`O nome completo da personagem é: ${fullName.first}`);
+// });
+
+// // ex13 p88
+
+const greet = name => `Hey, ${name}!`;
+
+fullNames.forEach(fullName => {console.log(greet(`${fullName.first} ${fullName.last}`));});
