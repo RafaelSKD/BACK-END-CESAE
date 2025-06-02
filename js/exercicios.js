@@ -217,9 +217,9 @@
 
 // //ex 12 p86
 
-const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'},
-{first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'},
-{first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+// const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'},
+// {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'},
+// {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
 
 // const firstNames = fullNames.map(fullNames => fullNames.first);
 
@@ -242,6 +242,21 @@ const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 
 
 // // ex13 p88
 
-const greet = name => `Hey, ${name}!`;
+// const greet = name => `Hey, ${name}!`;
 
-fullNames.forEach(fullName => {console.log(greet(`${fullName.first} ${fullName.last}`));});
+// fullNames.forEach(fullName => {console.log(greet(`${fullName.first} ${fullName.last}`));});
+
+
+// // ex14 p94
+
+// const validUsernames = (["mark", "staceysmom1978", "q29832128238983", "carrie98", "MoanaFan"]);
+
+// const valid = validUsernames.filter(username => username.length < 10);
+
+// const validUsernames = (usernames) => usernames.filter(username => username.length < 10);
+
+// // ex15 p97
+
+// const allEvens = array => (array.every(number => number % 2 === 0));
+
+// // ex16 p100
